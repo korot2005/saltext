@@ -1,3 +1,9 @@
+# Saltext App
+![BuildAndDeploy](https://github.com/korot2005/saltext/actions/workflows/build-and-deploy.yml/badge.svg)
+## Description
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
