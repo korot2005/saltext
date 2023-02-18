@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 18.x
       - name: Install modules
-        run: npm ci
+        run: npm ic
       - name: Test
         run: npm run test
   lint:
@@ -31,7 +31,7 @@ jobs:
         with:
           node-version: 18.x
       - name: Install modules
-        run: npm ci
+        run: npm ic
       - name: Test
         run: npm run lint
   build:
@@ -45,7 +45,7 @@ jobs:
         with:
           node-version: 18.x
       - name: Install modules
-        run: npm ci
+        run: npm ic
       - name: Build
         run: npm run build
       - name: Deploy
