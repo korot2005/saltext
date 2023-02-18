@@ -1,5 +1,6 @@
 # Saltext App
 ![BuildAndDeploy](https://github.com/korot2005/saltext/actions/workflows/build-and-deploy.yml/badge.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aadffea7-ef61-457c-ba1c-4f452d1ac287/deploy-status?branch=master)](https://app.netlify.com/sites/saltext/deploys)
 ## Description
 
 
