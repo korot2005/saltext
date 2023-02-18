@@ -36,13 +36,14 @@ export const Panel = () => {
                 onChange={onChange}
             />
             <TextField
-                disabled
                 id="output"
                 label="Result"
                 multiline
                 rows={4}
-                color={"success"}
-                sx={{width: '100%', input: { color: 'red' } }}
+                InputProps={{
+                    readOnly: true,
+                }}
+                sx={{width: '100%', input: {color: 'red'}}}
                 value={outputText}
             />
             <Button variant={'outlined'} onClick={decoder}>Decode/Encode</Button>
