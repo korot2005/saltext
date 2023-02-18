@@ -1,13 +1,13 @@
 import React from 'react';
 import {TextField, Button, Paper} from "@mui/material";
-import {textDecoder} from "../../helpers/TextDecoder";
+import {textEncoder} from "../../helpers/TextDecoder";
 
 export const Panel = () => {
     const [inputTextArea, setTextArea] = React.useState('');
     const [outputText, setOutputText] = React.useState('');
 
     const decoder = () => {
-        let text_dec = textDecoder(inputTextArea)
+        let text_dec = textEncoder(inputTextArea)
         setOutputText(text_dec);
     };
 
